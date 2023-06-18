@@ -14,7 +14,7 @@ int main() {
     grades[0][2] = 65;
     grades[0][3] = 89;
     grades[0][4] = 90;
-    
+
     grades[1][0] = 85;
     grades[1][1] = 80;
     grades[1][2] = 80;
@@ -22,7 +22,9 @@ int main() {
     grades[1][4] = 87;
 
     for (i = 0; i < subjects; i++) {
+        
         average = 0;
+
         for (j = 0; j < students; j++) {
             average += grades[i][j];
         }

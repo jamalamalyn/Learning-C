@@ -1,6 +1,5 @@
 #include<stdio.h>
 
-// Main entry method
 int main(){
 
     int grades[3];
